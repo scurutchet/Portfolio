@@ -1,0 +1,66 @@
+#contact{
+    min-height: 15rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 1.7rem auto;
+    align-items: center;
+    justify-content: center;
+}
+.contactTitle{
+    margin-bottom: 3rem;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 2.30rem;
+}
+#contact p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0 1rem;
+}
+.labels{
+    width: 90vw;
+    max-width: 50rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: #343436;
+    outline: none;
+}
+.name , .email , .btn{
+    height: 2.5rem;
+}
+.msg{
+    height: 10rem;
+}
+.btn{
+    box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
+    color: #B4D9BD;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 1.5rem auto;
+    width: 45vw;
+    max-width: 25rem;
+}
+.btn:hover{
+    background-color: #B4D9BD;
+    color: #242426;
+    transition: all 400ms ease;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.link{
+    width: 5vw;
+    margin: 1rem 2rem;
+    border-radius: 5rem;
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5);
+}
