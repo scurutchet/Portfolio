@@ -25,7 +25,7 @@
 .labels{
     width: 90vw;
     max-width: 50rem;
-    margin: 0.5rem;
+    margin: 0.5rem auto;
     padding: 0.3rem;
     font-size: 1rem;
     color: white;
@@ -38,7 +38,7 @@
     height: 2.5rem;
 }
 .msg{
-    height: 10rem;
+    height: 8rem;
 }
 .btn{
     box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
@@ -59,7 +59,8 @@
     flex-direction: row;
 }
 .link{
-    width: 5vw;
+    width: 10vw;
+    max-width: 3rem;
     margin: 1rem 2rem;
     border-radius: 5rem;
     box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5);

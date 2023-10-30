@@ -2,29 +2,31 @@
     height: 5rem;
     width: 100vw;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1rem 30rem;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     position: sticky;
     top: 0;
-}
-.navbar ul {
-    display: flex;
     flex-direction: row;
   }
-  .navbar ul li {
+  .li {
     list-style: none;
     margin: 1rem;
-  }
-  .navbar ul li a{
     text-decoration: none;
     color: white;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 1.50rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid transparent;
   }
 
-  .navbar ul li a:hover{
+  .li:hover{
+    padding-bottom: 0.5rem;
+    color: #B4D9BD;
+    border-bottom: 3px solid #B4D9BD;
+  }
+  .active{
     padding-bottom: 0.5rem;
     color: #B4D9BD;
     border-bottom: 3px solid #B4D9BD;
