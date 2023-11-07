@@ -23,18 +23,18 @@ function Contact () {
         <h2 className='contactTitle'>Contact Me</h2>
         <p>Please fill out the form bellow to discuss any work opportunities.</p>
         <form className='form' ref={form} onSubmit={sendEmail}>
-          <input type='text' className='name labels' name='from_name' placeholder='Your name'></input>
-          <input type='email' className='email labels' name='from_email' placeholder='Your e-mail'></input>
-          <textarea name='message' className='msg labels' rows='5' placeholder='Your message'></textarea>
+          <input type='text' className='name labels' name='from_name' required placeholder='Your name'></input>
+          <input type='email' className='email labels' name='from_email' required placeholder='Your e-mail'></input>
+          <textarea name='message' className='msg labels' rows='5' required placeholder='Your message'></textarea>
           <button type='submit' value={send} className='btn labels'>Submit</button>
           <div className='links'>
-            <a href='https://github.com/scurutchet' target='_blank'>
+            <a href='https://github.com/scurutchet' target='_blank' rel='noreferrer'>
               <img src={github} alt='Github' className='link'></img>
             </a>
-            <a href='https://www.linkedin.com/in/samanta-curutchet-8b23b4191/' target="_blank">
+            <a href='https://www.linkedin.com/in/samanta-curutchet-8b23b4191/' target="_blank" rel='noreferrer'>
               <img src={linkedin} alt='Linkedin' className='link'></img>
             </a>
-            <a href='mailto:samantacurutchet@gmail.com' target="_blank">
+            <a href='mailto:samantacurutchet@gmail.com' target="_blank" rel='noreferrer'>
               <img src={email} alt='email' className='link'></img>
             </a>
           </div>

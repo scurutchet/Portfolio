@@ -1,24 +1,28 @@
 .navbar{
-    height: 5rem;
+    height: 6rem;
     width: 100vw;
     margin: 0 auto;
-    padding: 1rem 30rem;
+    padding: 1rem 3rem;
     display: flex;
-    align-items: center;
-    justify-content:space-between;
+    align-items:center;
+    justify-content:center;
     position: sticky;
     top: 0;
     flex-direction: row;
   }
   .li {
     list-style: none;
-    margin: 1rem;
+    margin: 1rem 2rem;
     text-decoration: none;
     color: white;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 1.50rem;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid transparent;
+  }
+  #menu, #hamburguerMenu{
+    display: none;
+    float: right;
   }
 
   .li:hover{
@@ -30,4 +34,53 @@
     padding-bottom: 0.5rem;
     color: #B4D9BD;
     border-bottom: 3px solid #B4D9BD;
+  }
+
+  @media screen and (max-width:640px){
+    .navbar{
+      position: sticky;
+      height:fit-content;
+      justify-content: space-between;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      transition: 0.3s ease all;
+      text-align: right;
+      background-color: #242426;
+    }
+    #hamburguerMenu:not(:checked)~ .responsiveNav {
+      display: none;
+    }
+    #hamburguerMenu:checked~ .responsiveNav {
+      display: flex;
+      flex-direction: column;
+      background-color: #242426;
+    }
+    #menu{
+      display: block;
+      font-size: larger;
+      text-align: right;
+      float: right;
+    }
+
+    .openMenu, .closeMenu{
+      display: block;
+      margin: 2rem auto 0.5rem auto;
+      font-size: larger;
+      text-align: right;
+      float: right;
+    }
+    .openMenu{
+      display: none;
+    }
+    #hamburguerMenu:checked ~ label .closeMenu{
+      display: none;
+    }
+    #hamburguerMenu:checked ~ label .openMenu{
+      display: block;
+    }
+    .responsiveNav{
+      flex-direction:column;
+      width: 100vw;
+    }
   }

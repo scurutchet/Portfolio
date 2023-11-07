@@ -7,7 +7,7 @@ function About() {
         <h2>My skills</h2>
         <div className='content'>
             <div className='columns'>
-                <h2 className='title'>Technologies</h2>
+                <h3 className='aTitle'>Technologies</h3>
                 <ul className='list'>
                     <li className='item'>HTML</li>
                     <li className='item'>CSS</li>
@@ -18,7 +18,7 @@ function About() {
                 </ul>
             </div>
             <div className='columns'>
-                <h2 className='title'>Soft skills</h2>
+                <h3 className='aTitle'>Soft skills</h3>
                 <ul className='list'>
                     <li className='item'>Fast learning curves</li>
                     <li className='item'>Hunger for self-improvement</li>
@@ -28,6 +28,9 @@ function About() {
                 </ul>
             </div>
         </div>
+        <button className='cvBtn'>
+            <a href='https://media.licdn.com/dms/document/media/D562DAQFtfskKDrJIuw/profile-treasury-document-pdf-analyzed/0/1697041449948?e=1699488000&v=beta&t=-ZnsVPGX8qOMrR3ap8EDjkTQE747r4S1Oi6xQx87Ww8' rel='noreferrer' target='_blank'>My curriculum</a>
+        </button>
     </section>
   )
 }

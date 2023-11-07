@@ -8,12 +8,12 @@
 .form{
     display: flex;
     flex-direction: column;
-    margin: 1.7rem auto;
+    margin: 1rem auto;
     align-items: center;
     justify-content: center;
 }
 .contactTitle{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 2.30rem;
 }
@@ -61,7 +61,7 @@
 .link{
     width: 10vw;
     max-width: 3rem;
-    margin: 1rem 2rem;
+    margin: 0.5rem 2rem;
     border-radius: 5rem;
     box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5);
 }
