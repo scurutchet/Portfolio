@@ -29,7 +29,7 @@ function About() {
             </div>
         </div>
         <button className='cvBtn'>
-            <a href='https://media.licdn.com/dms/document/media/D562DAQFtfskKDrJIuw/profile-treasury-document-pdf-analyzed/0/1697041449948?e=1699488000&v=beta&t=-ZnsVPGX8qOMrR3ap8EDjkTQE747r4S1Oi6xQx87Ww8' rel='noreferrer' target='_blank'>My curriculum</a>
+            <a href='https://docs.google.com/document/d/1_d1NK73rP7lWu8prcT0YQIe3QC8kNSL6WbF61pZyHGA/edit?usp=sharing'>My curriculum</a>
         </button>
     </section>
   )
