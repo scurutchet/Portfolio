@@ -29,7 +29,7 @@ function About() {
             </div>
         </div>
         <button className='cvBtn'>
-            <a href='https://docs.google.com/document/d/1_d1NK73rP7lWu8prcT0YQIe3QC8kNSL6WbF61pZyHGA/edit?usp=sharing'>My curriculum</a>
+            <a href='https://docs.google.com/document/d/1_d1NK73rP7lWu8prcT0YQIe3QC8kNSL6WbF61pZyHGA/edit?usp=sharing' target='_blank'>My curriculum</a>
         </button>
     </section>
   )
