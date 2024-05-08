@@ -1,75 +1,80 @@
-#home{
-    min-height: 35rem;
-    width: 100vw;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
+#home {
+  min-height: 35rem;
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
 }
-.leftProfile{
-    width: 50vw;
+.leftProfile {
+  width: 50vw;
 }
-.photo{
-    width: 25vw;
-    border-radius: 50rem;
-    margin-top: 5vw;
-    margin-left: 10vw;
+.photo {
+  width: 25vw;
+  border-radius: 50rem;
+  margin-top: 5vw;
+  margin-left: 10vw;
+  transition: 0.5s linear;
 }
-.rightProfile{
-    width: 50vw;
-    text-align: left;
-    padding: 0 2rem;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
+.photo:hover {
+  width: 28vw;
+  opacity: 0.6;
 }
-.hello{
-    padding-bottom: 1rem;
-    font-size: 1.75rem;
+.rightProfile {
+  width: 50vw;
+  text-align: left;
+  padding: 0 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
-.name{
-    color: #B4D9BD;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-    font-size: 3.50rem;
+.hello {
+  padding-bottom: 1rem;
+  font-size: 1.75rem;
 }
-.intro{
-    padding-bottom: 2rem;
-    font-size: 2.50rem;
+.name {
+  color: #b4d9bd;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-size: 3.5rem;
 }
-.front{
-    padding-bottom: 2rem;
-    font-size: 2.50rem;
+.intro {
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
 }
-.para{
-    padding-bottom: 2rem;
-    font-size: 1.75rem;
+.front {
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+}
+.para {
+  padding-bottom: 2rem;
+  font-size: 1.75rem;
 }
 
-@media screen and (max-width:640px){
-    #home{
-        display: flex;
-        flex-direction:column-reverse;
-    }
-    .leftProfile{
-        background-color: #242426;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-    }
-    .rightProfile{
-        width: 100vw;
-    }
-    .photo{
-        align-self: center;
-        margin: 2rem 0;
-    }
-    .hello .para{
-        font-size: 1.25rem;
-    }
-    .intro .front{
-        font-size: 2rem;
-    }
-    .name{
-        font-size: 3rem;
-    }
+@media screen and (max-width: 640px) {
+  #home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .leftProfile {
+    background-color: #242426;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  .rightProfile {
+    width: 100vw;
+  }
+  .photo {
+    align-self: center;
+    margin: 2rem 0;
+  }
+  .hello .para {
+    font-size: 1.25rem;
+  }
+  .intro .front {
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
 }
